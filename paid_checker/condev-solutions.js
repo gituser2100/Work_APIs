@@ -15,5 +15,5 @@ app.listen(port, ()=> {
 
 app.get('/condev_solutions_paid', (req, res) => {
     console.log('paid checker request received')
-    res.json(true)
+    res.json(false)
 })
